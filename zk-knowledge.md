@@ -177,7 +177,7 @@ Relating back to the three motifs, Jens talks about the following areas for impr
 
 - Advantages of the DSL approach:
   - It’s relatively easy to write a DSL because you can iteratively build abstractions on top of constraints - you don’t need to have a whole separately-defined instruction set or architecture
-  - Because you have this low-level control, you can use a DSL as an easier way of writing hand-rolled circuit optimisations - it’s easy to reason about performance when the developer has a good understanding of exactly what constraints each instruction is translated into
+  - Because you have this low-level control, you can use a DSL as an easier way of writing hand-rolled circuit optimizations - it’s easy to reason about performance when the developer has a good understanding of exactly what constraints each instruction is translated into
 
 - Disadvantages of the DSL approach:
   - DSLs aren’t as capable of high-level abstraction, at least not without more complex compiler passes and semantics more removed from the underlying constraint systems
